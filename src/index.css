@@ -1,0 +1,39 @@
+*{
+  font-family: 'Trocchi';
+  background-color: rgb(20, 61, 66) ;
+  color: white
+}
+body {
+  padding: 60px;
+}
+input{
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: grey;
+  color: black;
+}
+.card-grid{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.card{
+  align-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 6px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.card p{
+  padding: 5px;
+  text-align: center;
+}
+
+.card img{
+  max-height: 170px;
+}
